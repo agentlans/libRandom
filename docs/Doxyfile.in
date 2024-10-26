@@ -1,0 +1,14 @@
+# Doxyfile.in
+
+PROJECT_NAME           = RandomLib
+PROJECT_VERSION        = 1.0
+
+INPUT                  = src include
+OUTPUT_DIRECTORY       = docs
+FILE_PATTERNS          = *.cpp *.h *.hpp
+RECURSIVE             = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = YES
+GENERATE_TREEVIEW      = YES
+EXTRACT_ALL            = YES
+
