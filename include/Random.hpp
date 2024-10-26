@@ -60,8 +60,8 @@ void Random::shuffle(T* arr, size_t n) {
 
 template <class Integer>
 void Random::sample(Integer n, Integer r, std::vector<Integer>& results) {
-	results.resize(results);
-	sample(n, r, results.begin());
+	results.resize(r);
+	sample(n, r, results.data());
 }
 
 template <class Integer>
